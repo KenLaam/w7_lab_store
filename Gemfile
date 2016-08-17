@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 gem 'carrierwave'
+gem 'carrierwave-aws'
+gem 'dotenv-rails', groups: [:development, :test], require: 'dotenv/rails-now'
+gem "mini_magick"
 
 gem 'rails', '5.0.0'
 gem 'puma', '~> 3.0'
