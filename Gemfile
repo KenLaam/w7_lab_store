@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
-# ruby '2.2.3'
+ruby '2.3.1'
+
+gem 'carrierwave'
+
 gem 'rails', '5.0.0'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
@@ -27,6 +30,7 @@ group :development do
   gem 'rails_layout'
   gem 'spring-commands-rspec'
   gem 'guard-rspec', require: false
+  gem 'guard-livereload', '~> 2.5', require: false
 end
 group :development, :test do
   gem 'factory_girl_rails'
